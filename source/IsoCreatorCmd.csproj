@@ -43,6 +43,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BER\CDCat\Export\ExportIso.cs" />
+    <Compile Include="BER\CDCat\Export\IExportPlugin.cs" />
+    <Compile Include="BER\CDCat\Export\TreeNode.cs" />
+    <Compile Include="BER\CDCat\Export\TreeNodeCollection.cs" />
+    <Compile Include="ISO9660\Enum.cs" />
+    <Compile Include="ISO9660\PrimitiveTypes\AsciiDateRecord.cs" />
+    <Compile Include="ISO9660\PrimitiveTypes\BinaryDateRecord.cs" />
+    <Compile Include="ISO9660\PrimitiveTypes\DirectoryRecord.cs" />
+    <Compile Include="ISO9660\PrimitiveTypes\PathTableRecord.cs" />
+    <Compile Include="ISO9660\PrimitiveTypes\VolumeDescriptor.cs" />
+    <Compile Include="IsoCreator\DirectoryTree\FolderElementList.cs" />
+    <Compile Include="IsoCreator\DirectoryTree\IsoDirectory.cs" />
+    <Compile Include="IsoCreator\DirectoryTree\IsoFile.cs" />
+    <Compile Include="IsoCreator\DirectoryTree\IsoFolderElement.cs" />
+    <Compile Include="IsoCreator\IsoAlgorithm.cs" />
+    <Compile Include="IsoCreator\IsoCreator.cs" />
+    <Compile Include="IsoCreator\IsoCreatorUtility.cs" />
+    <Compile Include="IsoWrappers\DateWrapper.cs" />
+    <Compile Include="IsoWrappers\DirectoryRecordWrapper.cs" />
+    <Compile Include="IsoWrappers\PathTableRecordWrapper.cs" />
+    <Compile Include="IsoWrappers\VolumeDescriptorWrapper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
